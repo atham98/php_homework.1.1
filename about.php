@@ -1,3 +1,14 @@
+<?php 
+ $myNname = "Adham";
+ $myAge = 18;
+ $myMail = "1998atham@gmail.com";
+ $mySity = "Нефтеюганск";
+ $myData = "Frontend разработчик";
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,23 +27,23 @@
 		<h1>Страница пользователя Дима</h1>
 	<dl>
 		<dt>Имя</dt>
-		<dd>Адхам</dd>
+		<dd><?= $myNname ?></dd>
 	</dl>
 	<dl>
 		<dt>Возраст</dt>
-		<dd>18</dd>
+		<dd><?= $myAge ?></dd>
 	</dl>
 	<dl>
 		<dt>Электронная почта</dt>
-		<dd><a href="mailto:1998atham@gmail.com">1998atham@gmail.com</a></dd>
+		<dd><a href="mailto:1998atham@gmail.com"><?= $myMail ?></a></dd>
 	</dl>
 	<dl>
 		<dt>Город</dt>
-		<dd>Нефтеюганск</dd>
+		<dd><?= $mySity ?></dd>
 	</dl>
 	<dl>
 		<dt>О себе</dt>
-		<dd>Frontend разработчик</dd>
+		<dd>$myData</dd>
 	</dl>
 </body>
 </html>
