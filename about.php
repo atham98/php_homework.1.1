@@ -43,7 +43,7 @@
 	</dl>
 	<dl>
 		<dt>О себе</dt>
-		<dd>$myData</dd>
+		<dd><?= $myData ?></dd>
 	</dl>
 </body>
 </html>
